@@ -1,0 +1,291 @@
+﻿html {
+  overflow-y: scroll;
+}
+.fl {
+  float: left;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+/* --------------- 상 단 배너 ------------ */
+
+#sec_top {
+  width: 100%;
+  height: 135px;
+  background: red;
+  opacity: 0.3;
+}
+/* --------------- 상 단 배너 end ------------ */
+
+#sec_body {
+  /* display:flex; */
+  width: 100%;
+  height: 956px;
+  /* background: blue; */
+}
+
+/* section왼쪽 wrap */
+
+/* ------------- section 왼쪽 메뉴 ------------- */
+#sec_top_membership {
+  width: 285px;
+  height: 272px;
+  background: #ff26ff;
+  opacity: 0.3;
+}
+
+/* -----------------------Header---------- */
+
+#header {
+  width: 100%;
+  /* background-color: aqua; */
+}
+
+.big_wrap {
+  height: 208px;
+  opacity: 0.5;
+}
+
+/* h top 감싸는놈 */
+.widthone {
+  width: 100%;
+  height: 35px;
+  /* background-color: red; */
+  border-bottom: 1px solid green;
+}
+
+#h_top {
+  width: 1420px;
+  height: 35px;
+  /* background: yellow; */
+  margin: 0 auto;
+}
+.h_top_ul {
+  display: flex;
+  width: 700px;
+  /* border: 1px solid #000000; */
+}
+.h_top_ul > a {
+  text-decoration: none;
+  color: black;
+}
+
+.h_top_ul > li > a::after {
+  content: " | ";
+  margin: 0 15px 0 0;
+}
+
+.h_top_ul > a > li > .last {
+  margin-right: 0;
+}
+
+.h_top_ul li {
+  margin-right: 12px;
+}
+.h_top_ul li.last {
+  margin-right: 0;
+}
+
+/* h body 감싸는놈 */
+.widthtwo {
+  width: 100%;
+  height: 112px;
+  /* background-color: rgb(217, 225, 236); */
+  border-bottom: 1px solid #ff7878;
+}
+
+#h_body {
+  width: 1420px;
+  height: 112px;
+  margin: 0 auto;
+  display: flex;
+  /* background: black; */
+}
+
+#h_body_logo {
+  height: 100%;
+  width: 260px;
+  /* background: blue; */
+  padding: 27px 0 0 27px;
+}
+#h_body_search {
+  height: 100%;
+  width: 650px;
+  /* background: red; */
+  margin: 0 198px 0 170px;
+  padding-top: 29px;
+}
+.search_wrapper {
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
+}
+#searchOption {
+  padding: 7px 4px 7px 13px;
+  margin-right: 10px;
+}
+.search_icon {
+  margin-left: -42px;
+}
+.searchText {
+  width: 423px;
+  height: 45px;
+  border-radius: 15px;
+}
+
+#h_body_icon {
+  height: 100%;
+  width: 141px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background: blue; */
+}
+
+.t_login_icon i,
+.t_join_icon i {
+  margin-left: 17px;
+}
+
+/* ------------------메뉴------------------------------- */
+.widththree {
+  width: 100%;
+  height: 62px;
+  /* background-color: blue; */
+  border-bottom: 1px solid #000000;
+}
+
+#h_menu {
+  width: 1420px;
+  /* hover 508 이엿다가 원래 62높이로 */
+  height: 62px;
+  margin: 0 auto;
+  line-height: 62px;
+  background: #d4a7a7;
+}
+#h_menu:hover {
+  height: 508px;
+}
+
+.gnb {
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  right: 0;
+  top: 0;
+  font-size: 20px;
+}
+
+.gnb > li > a {
+  color: black;
+  font-weight: bold;
+}
+.gnb .sub > li > a {
+  font-size: 16px;
+  color: red;
+}
+.sub {
+  display: none;
+}
+.gnb > li:hover > .sub {
+  display: block;
+  color: black;
+  line-height: 100%;
+}
+.gnb > li:hover > .sub > li > a {
+  color: black;
+  font: 14px bold;
+}
+
+/* #h_menu > ul > li > a{
+    color: black;
+    font: 22px bold;
+    
+  } */
+
+/* ------------footer---------------- */
+
+#footer {
+  height: 178px;
+  width: 100%;
+  /* background: #000066; opacity:0.5; */
+}
+
+/* footer top 감싸는놈 */
+.f_widthOne {
+  width: 1420px;
+  height: 57px;
+  margin: 0 auto;
+  /* background-color: red; */
+  border-top: 1px solid #000000;
+}
+
+#footer_top {
+  width: 1420px;
+  height: 57px;
+  background: yellow;
+  opacity: 0.3;
+}
+#footer_top > ul {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+#footer_top > ul > li:after {
+  content: "|";
+  margin: 0 15px 0 15px;
+}
+
+/* footer bottom 감싸는놈 */
+.f_widthTwo {
+  width: 100%;
+  height: 120px;
+  /* background: pink; */
+  border-top: 1px solid #000000;
+}
+
+#footer_bottom {
+  width: 1420px;
+  height: 120px;
+  margin: 0 auto;
+  /* background:red; */
+  opacity: 0.3;
+}
+#f_logo {
+  height: 100%;
+  width: 360px;
+  background: blue;
+  display: flex;
+  position: relative;
+}
+.f_left_logo_wrap {
+  position: absolute;
+  top: 20px;
+  left: 28px;
+}
+
+#f_address {
+  height: 100%;
+  width: 905px;
+  /* background: grey; */
+  padding-top: 25px;
+}
+#f_right_logo {
+  height: 100%;
+  width: 153px;
+  background: green;
+  padding-top: 20px;
+}
+#f_right_logo > img {
+  margin-left: 15px;
+}

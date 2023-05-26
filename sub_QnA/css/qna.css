@@ -1,0 +1,118 @@
+﻿/* body{background: url(../images/qna_bg.png) no-repeat center top;} */
+	
+#section{
+	/* background: #ff73ff; */
+	height: 1504px;
+	width: 100%;
+}
+.fl{float: left;}
+
+#sec_wrap_left{
+	background: yellow;
+	opacity: 0.3;
+	width: 290px;
+	height: 1333px;
+}
+
+	#sec_top_membership{
+	margin-left:3px;
+	height: 427px;
+	/* background: #00008c; */
+	/* opacity: .2; */
+	}
+
+
+#sec_wrap_right{
+	/* background: blue; */
+	/* opacity: 0.1; */
+	width: 1075px;
+	height: 1333px;
+	margin-left:55px;
+}
+
+
+	#sec_qna_top{
+		width: 100%;
+		height: 100px;
+		background: #00ff40;
+		opacity: 0.2;
+		margin-bottom: 19px;
+	}
+	#qna_theme{
+		height: 102px;
+		width: 1070px;
+		background: orange;
+		opacity: 0.5;
+		margin-bottom: 23px;
+	}
+		
+		#theme_Btn_one{
+			height: 46px;
+			width:25%;
+			background: red;
+			opacity: 0.3;
+		}
+		#theme_Btn_two{
+			height: 46px;
+			width:25%;
+			background: green;
+			opacity: 0.3;
+		}
+		#theme_Btn_three{
+			height: 46px;
+			width:25%;
+			background: blue;
+			opacity: 0.3;
+		}
+		#theme_Btn_four{
+			height: 46px;
+			width:25%;
+			background: red;
+			opacity: 0.3;
+		}
+		
+	
+	
+	
+	#qna_search{
+		height: 36px;
+		width: 1073px;
+		background: red;
+		opacity: 0.2;
+		margin-bottom: 10px;
+	}
+	
+	#qna_content{
+		height: 550px;
+		width: 100%;
+		background: orange;
+		opacity: 0.5;
+		margin-bottom: 39px;
+	}
+		
+	#qna_num_Btn{
+		height: 33px;
+		width: 550px;
+		background: red;
+		opacity: .3;
+		margin: 0 0 238px 260px;
+	}
+	
+	#bot_survey{
+		height: 183px;
+		width: 100%;
+		background: green;
+		opacity: 0.5;
+		margin: 0 auto;
+	}
+		
+		
+
+	
+		
+		
+		
+		
+		
+		
+		

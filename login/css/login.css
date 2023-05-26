@@ -1,0 +1,73 @@
+﻿/* body{background: url(../images/login.png) no-repeat center top;} */
+
+
+	
+	
+	#section{
+		background: green;
+		opacity:.3;
+		height: 1095px;
+		width: 100%;
+	}
+		/* #sec_top{ */
+			/* width:100%; */
+			/* height: 135px; */
+			/* background: red; */
+		/* } */
+		
+		#sec_body{
+			width:100%;
+			height: 956px;
+			background: green;
+		}
+		
+			#sec_body_top{
+				display:flex;
+				width: 100%;
+				height: 272px;
+				background: yellow;
+			}
+		
+				#sec_top_membership{
+				} 
+				#sec_top_mid{ 
+					width:600px; 
+					height: 99%; 
+					background: #00008c;
+					margin-left:54px;
+				}
+				#sec_top_right{
+					width:235px; 
+					height: 99%; 
+					background: #400010;
+					margin-left:244px;
+				}
+				
+			#sec_body_bot{
+				width: 100%;
+				height: 370px;
+				background: #ff9900;
+				padding-left: 220px;
+			}
+				#body_logInput{
+					margin: 0 auto;
+					width: 720px;
+					height: 100%;
+					background: #d90036;
+				}
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				

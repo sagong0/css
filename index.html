@@ -1,0 +1,623 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>국가공간정보포털</title>
+    <link rel="stylesheet" href="css/component.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/1d259ec9e2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- #wrap>header#header+section#section+footer#footer -->
+    <header id="header">
+      <div class="big_wrap">
+        <div class="widthone">
+          <div id="h_top">
+            <ul class="h_top_ul">
+              <li><a href="#">국가공간정보포털</a></li>
+              <li><a href="#">서비스</a></li>
+              <li><a href="#">오픈마켓</a></li>
+              <li><a href="#">국가중점데이터</a></li>
+              <li><a href="#">공간정보홍보관</a></li>
+            </ul>
+          </div>
+          <!-- id="h_top" end -->
+        </div>
+        <!-- class="widthone" end -->
+        <div class="widthtwo">
+          <div id="h_body">
+            <div id="h_body_logo" class="h_logo">
+              <img src="images/project_files/logo.gif" alt="" />
+            </div>
+            <div id="h_body_search">
+              <ul>
+                <div class="search_wrapper">
+                  <li>
+                    <select name="searchOption" id="searchOption">
+                      <option value="통합검색">통합검색</option>
+                      <option value="이미지검색">오픈마켓</option>
+                      <option value="이미지검색">국가중점데이터</option>
+                      <option value="이미지검색">게시판</option>
+                      <option value="이미지검색">공간정보지식</option>
+                      <option value="이미지검색">LOD</option>
+                      <option value="이미지검색">웹페이지</option>
+                      <option value="이미지검색">시설</option>
+                      <option value="이미지검색">주소</option>
+                      <option value="이미지검색">지번</option>
+                      <option value="이미지검색">사전</option>
+                    </select>
+                  </li>
+                  <li>
+                    <input type="text" class="searchText" id="searchText" />
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img
+                        src="images/project_files/t-search.png"
+                        alt=""
+                        class="search_icon"
+                    /></a>
+                  </li>
+                </div>
+                <!-- search_wrapper end here -->
+              </ul>
+            </div>
+            <!-- id="h_body_search" end -->
+            <div id="h_body_icon">
+              <div class="t_login_icon">
+                <a href="#"><i class="fas fa-search"></i></a>
+                <p>로그인</p>
+              </div>
+              <div class="t_join_icon">
+                <a href="#"><i class="fas fa-search"></i></a>
+                <p>회원가입</p>
+              </div>
+            </div>
+            <!-- id="h_body_icon end -->
+          </div>
+          <!-- h_body end -->
+        </div>
+        <!-- widthtwo end -->
+        <div class="widththree">
+          <div id="h_menu">
+            <div class="h_wrap">
+              <nav>
+                <ul class="gnb">
+                  <li>
+                    <a href="#" title="개방공간">개방공간</a>
+                    <ul class="sub">
+                      <li><a href="#">LOD개방서비스</a></li>
+                      <li><a href="#">오픈마켓</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#" title="활용공간">활용공간</a>
+                    <ul class="sub">
+                      <li><a href="#">오픈API목록</a></li>
+                      <li><a href="#">국가공간정보포털API</a></li>
+                      <li><a href="#">나만의주제도만들기</a></li>
+                      <li><a href="#">LX맵API</a></li>
+                      <li><a href="#">도로명주소API</a></li>
+                      <li><a href="#">국가중점데이터API</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#" title="활용공간">열람공간</a>
+                    <ul class="sub">
+                      <li><a href="#">부동산중개업조회</a></li>
+                      <li><a href="#">토지찾기서비스</a></li>
+                      <li><a href="#">국토정보조회</a></li>
+                      <li><a href="#">지도서비스</a></li>
+                      <li><a href="#">부동산개발업조회</a></li>
+                      <li><a href="#">공간정보목록정보</a></li>
+                      <li><a href="#">공간정보통계</a></li>
+                      <li><a href="#">공간정보산업현황</a></li>
+                      <li><a href="#">개방데이터셋목록</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#" title="활용공간">지식공간</a>
+                    <ul class="sub">
+                      <li><a href="#">공간정보소개</a></li>
+                      <li><a href="#">자료실</a></li>
+                      <li><a href="#">공간정보표준</a></li>
+                      <li><a href="#">공간정보전문지식</a></li>
+                      <li><a href="#">공간정보정책</a></li>
+                      <li><a href="#">공간정보법령</a></li>
+                      <li><a href="#">연구자료</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#" title="활용공간">소통공간</a>
+                    <ul class="sub">
+                      <li><a href="#">Q&amp;A</a></li>
+                      <li><a href="#">FAQ</a></li>
+                      <li><a href="#">설문조사</a></li>
+                      <li><a href="#">공간인포그래픽</a></li>
+                      <li><a href="#">공간정보홍보관</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#" title="활용공간">알림공간</a>
+                    <ul class="sub">
+                      <li><a href="#">공지사항</a></li>
+                      <li><a href="#">보도자료</a></li>
+                      <li><a href="#">국가공간정보포털소개</a></li>
+                      <li><a href="#">공간정보교육</a></li>
+                      <li><a href="#">채용정보</a></li>
+                      <li><a href="#">홍보사진/영상</a></li>
+                      <li><a href="#">정기간행물</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <!-- id="h_menu" end here -->
+        </div>
+        <!-- width three end   -->
+      </div>
+    </header>
+    <section id="section">
+      <div id="sec_first">
+        <!-- 950 h: 410 -->
+        <div id="top_left_box">
+          <img
+            src="http://www.nsdi.go.kr/lxportal/images/common/main/banner2020_01.png"
+            alt=""
+            width="950"
+            height="410"
+          />
+        </div>
+        <!-- id = rank box start -->
+        <div id="rank_box">
+          <div class="rank_title">
+            <dl>
+              <dt class="rank_dt">인기검색어</dt>
+              <dd>
+                <ul>
+                  <li>
+                    <span>1.</span>
+                    <a href="#">연속지적도</a>
+                    <span> 476,774</span>
+                  </li>
+                  <li>
+                    <span>1.</span>
+                    <a href="#">지적도</a>
+                    <span> 476,774</span>
+                  </li>
+                  <li>
+                    <span>3.</span>
+                    <a href="#">수치지형도</a>
+                    <span> 476,774</span>
+                  </li>
+                  <li>
+                    <span>4.</span>
+                    <a href="#">용도지역</a>
+                    <span> 476,774</span>
+                  </li>
+                  <li>
+                    <span>5.</span>
+                    <a href="#">행정구역</a>
+                    <span> 476,774</span>
+                  </li>
+                  <li>
+                    <span>6.</span>
+                    <a href="#">도로</a>
+                    <span> 476,774</span>
+                  </li>
+                  <li>
+                    <span>7.</span>
+                    <a href="#">연속지적</a>
+                    <span> 476,774</span>
+                  </li>
+                  <li>
+                    <span>8.</span>
+                    <a href="#">국토계획</a>
+                    <span> 476,774</span>
+                  </li>
+                  <li>
+                    <span>9.</span>
+                    <a href="#">연속주제</a>
+                    <span> 476,774</span>
+                  </li>
+                  <li>
+                    <span>10.</span>
+                    <a href="#">행정경계</a>
+                    <span> 476,774</span>
+                  </li>
+                </ul>
+              </dd>
+            </dl>
+          </div>
+        </div>
+        <!-- id="rank_box" end -->
+      </div>
+      <!-- id="sec_first" end -->
+      <div id="sec_second">
+        <div id="second_top">
+          <div id="second_top_left">
+            <h2>오픈마켓</h2>
+            <p>
+              국가, 공공 및 민간에서 생상된 공간정보를 확인하실 수 <br />
+              있습니다.
+            </p>
+            <img src="images/project_files/top_icon_openmarket.png" alt="" />
+            <div class="openMark_rank_list fl">
+              <ul>
+                <li>1. 연속지적_전국</li>
+                <li>2. 수치지형도v1.0(1:5000)</li>
+                <li>3. 수치지형도v2.0(1:5000)</li>
+                <li>4. 연속지적_경기</li>
+                <li>5. (연속주제)_국토계획/교통시...</li>
+              </ul>
+            </div>
+          </div>
+          <!-- id="second_top_left END -->
+          <div id="second_top_mid">
+            <h2>오픈API</h2>
+            <p>
+              국가공간정보의 개방, 공유, 참여를 통해 어플리케이션을 <br />
+              개발할 수 있도록 기술과 서비스를 공유하는 시스템입니다.
+            </p>
+            <div class="api_list">
+              <img src="images/project_files/top_icon_api.png" alt="" />
+              <ul>
+                <li>
+                  <a href="#"
+                    >오픈API목록 <span> <i class="fa-solid fa-play"></i> </span
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    >국가공간정보포털API
+                    <span> <i class="fa-solid fa-play"></i> </span
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    >LX맵API <span> <i class="fa-solid fa-play"></i> </span
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    >도로명주소안내도API
+                    <span> <i class="fa-solid fa-play"></i> </span
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    >국가중점데이터API
+                    <span> <i class="fa-solid fa-play"></i> </span
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- id="second_top_mid" END -->
+          <div id="second_top_right">
+            <h2>부동산서비스</h2>
+            <p>
+              부동산중개업 및 개발업 조회서비스는 전국 각 지자체에 등록된
+              부동산중개업소와 부동산개발업 관련 정보를 조회할 수 있는
+              서비스입니다.
+            </p>
+            <div class="service_box">
+              <div class="service_box_left">
+                <p>부동산중개업</p>
+              </div>
+              <div class="service_box_right">
+                <p>부동산개발업</p>
+              </div>
+            </div>
+          </div>
+          <!-- id="second_top_right" END -->
+        </div>
+        <div id="second_bottom">
+          <div id="second_bot_left">
+            <h2>지도서비스</h2>
+            <p>
+              LX맵, 수치지행도, 비행안전 및 <br />
+              LOD(Linked Open-Data)등의 서비스를 지도서비스에서 <br />
+              확인하실 수 있습니다.
+            </p>
+            <div class="banner_list">
+              <img src="images/project_files/top_icon_knowledge.png" alt="" />
+              <ul>
+                <li>
+                  <a href="#"
+                    >지도검색
+                    <span>
+                      <i class="fa-solid fa-play"></i>
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#"
+                    >수치지형도
+                    <span>
+                      <i class="fa-solid fa-play"></i>
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#"
+                    >개방데이터셋
+                    <span>
+                      <i class="fa-solid fa-play"></i>
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#"
+                    >비행안전
+                    <span>
+                      <i class="fa-solid fa-play"></i>
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div id="second_bot_mid">
+            <h2>공간정보전문지식</h2>
+            <p>
+              사용자와 공간정보 전문가와의 지식교류 서비스를 <br />
+              제공합니다.
+            </p>
+            <div class="banner_list">
+              <img src="images/project_files/top_icon_knowledge.png" alt="" />
+              <ul>
+                <li>
+                  <a href="#"
+                    >LOD전문지식
+                    <span>
+                      <i class="fa-solid fa-play"></i>
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#"
+                    >공간정보용어사전
+                    <span>
+                      <i class="fa-solid fa-play"></i>
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#"
+                    >건강정보컬럼
+                    <span>
+                      <i class="fa-solid fa-play"></i>
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#"
+                    >전문가iN
+                    <span>
+                      <i class="fa-solid fa-play"></i>
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <!-- class="banner_list" end -->
+          </div>
+          <!-- id="second_bot_mid" end -->
+          <div id="second_bot_right">
+            <div class="search_top">
+              <h2>공간정보검색</h2>
+              <p>
+                국가교통부에서 매년 조사하는 국가공간정보목록과 <br />
+                국가공간포털에서 제공하는 공간정보를 확인할 수 <br />
+                있습니다.
+              </p>
+            </div>
+            <div class="search_bottom">
+              <img src="images/project_files/top_icon_search.png" alt="" />
+              <div class="search_list">
+                <a href="#"><span>공간정보목록</span></a>
+                <a href="#"><span>국가공간정보포털개방목록</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- id="second_bottom" END -->
+      </div>
+      <div id="sec_third">
+        <div id="third_left_box">
+          <div id="third_left_top">
+            <ul>
+              <li class="">
+                <img
+                  src="images/project_files/f_logo.png"
+                  width="45"
+                  height="45"
+                  alt=""
+                />
+                <div class="mix_icon">
+                  <strong>
+                    <a href="#">공간 데이터 분석 플랫폼</a>
+                  </strong>
+                  <p>
+                    국토교통부 공간빅데이터 분석 플랫폼 <br />
+                    으로 이동합니다.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <img
+                  src="images/project_files/h1.png"
+                  width="46"
+                  height="43"
+                  alt=""
+                />
+                <div class="mix_icon">
+                  <strong>
+                    <a href="#">국토정보플랫폼</a>
+                  </strong>
+                  <p>
+                    국토지리정보원 국보정보플랫폼 <br />
+                    으로 이동합니다.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <img
+                  src="images/project_files/vworld.png"
+                  width="140"
+                  height="37"
+                  alt=""
+                />
+                <div class="mix_icon">
+                  <p>
+                    공간정보산업진흥원 공간정보 <br />
+                    오픈플랫폼으로 이동합니다.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div id="third_left_bottom">
+            <ul>
+              <li>
+                <a href="#">
+                  <img
+                    src="images/project_files/header_logo2.jpg"
+                    width="300"
+                    height="150"
+                    alt=""
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div id="third_middle_box">
+          <div class="third_middle_top"></div>
+          <div class="third_middle_bottom">
+            <div class="third_middle_bottom_left fl">
+              <h3>공간카페</h3>
+              <div class="comunity_box">
+                <img src="images/project_files/middle_icon_cafe.png" alt="" />
+                <p>
+                  공간정보를 이용하여 사용자 <br />
+                  커뮤니티 형성 및 다양한 정보를
+                  <br />
+                  공유 할 수 있는 공간입니다.
+                </p>
+              </div>
+              <!-- class="comunity_box" end -->
+              <span><a href="#" class="type1">바로가기</a></span>
+            </div>
+            <!-- class="third_middle_bottom_left -->
+            <div class="third_middle_bottom_right fl">
+              <h3>공간카페</h3>
+              <div class="comunity_box">
+                <img src="images/project_files/middle_icon_cafe.png" alt="" />
+                <p>
+                  공간정보를 이용하여 사용자 <br />
+                  커뮤니티 형성 및 다양한 정보를
+                  <br />
+                  공유 할 수 있는 공간입니다.
+                </p>
+              </div>
+              <!-- class="comunity_box" end -->
+              <span><a href="#" class="type1">바로가기</a></span>
+            </div>
+            <!-- class="third_middle_bottom_right end -->
+          </div>
+        </div>
+        <div id="third_right_box">
+          <div class="third_right_box_top">
+            <div class="third_right_top_banner">
+              <h3>토지찾기서비스(헬프데스크: 1899 -6523)</h3>
+            </div>
+            <a href=""><span>내토지찾기</span></a>
+            <a href=""><span class="green">조상땅찾기</span></a>
+            <!-- class="third_right_box_bottom" end -->
+          </div>
+          <!-- class="third_right_box_top" end  -->
+          <div class="third_right_box_bottom"></div>
+          <!-- "third_right_box_bottom" end -->
+        </div>
+        <!-- id="third_right_box" end -->
+      </div>
+      <!-- sec_third END -->
+      <div id="sec_bottom">
+        <div id="bottom_left_box"></div>
+        <div id="bottom_middle_box"></div>
+        <div id="bottom_right_box"></div>
+      </div>
+    </section>
+    <!-- section end -->
+    <div class="bottom_banner"></div>
+    <!-- ---------------footer----------------------------- -->
+    <footer id="footer">
+      <div class="f_widthOne">
+        <div id="footer_top">
+          <ul>
+            <li><a href="#">이용약관</a></li>
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><a href="#">저작권정책</a></li>
+            <li><a href="#">뷰어프로그램다운로드</a></li>
+            <li><a href="#">이메일무단수집거부</a></li>
+            <li><a href="#">사이트맵</a></li>
+          </ul>
+        </div>
+        <!-- footer top end -->
+        <!-- class="f_widthOne" end  -->
+      </div>
+      <div class="f_widthTwo">
+        <div id="footer_bottom">
+          <div id="f_logo" class="fl">
+            <div class="f_left_logo_wrap">
+              <img
+                src="images/project_files/f_logo.gif"
+                width="64"
+                height="66"
+                alt="foot_logo"
+              />
+              <img
+                src="images/project_files/f_bi.png"
+                width="90"
+                height="38"
+                alt="foot_logo"
+              />
+              <img
+                src="images/project_files/f_logo_two.gif"
+                width="114"
+                height="18"
+                alt="foot_logo"
+              />
+            </div>
+          </div>
+          <div id="f_address" class="fl">
+            <address style="text-align: center; color: black">
+              54870/ 전라북도 전주시 덕진구 기지로 120 (중동) 한국국토정보공사/
+              문의전화 02-523-9768 (평일 09:00~18:00, 점심시간 12:00~13:00) *
+              법원사실조회 등 확인문의는 (우)30103 세종특별자치시 도움6로 11
+              국토교통부 국가공간정보센터(3층) COPYRIGHT(C) Korea National
+              Spatial Data Infrastructure Portal, ALL RIGHTS RESERVED.
+            </address>
+          </div>
+          <div id="f_right_logo" class="fl">
+            <img
+              src="images/project_files/wa.png"
+              width="124"
+              height="85"
+              alt=""
+            />
+          </div>
+        </div>
+        <!-- footer_bootom end here -->
+      </div>
+      <!-- f_widthTwo end here -->
+    </footer>
+    <!-- footer end here -->
+  </body>
+</html>

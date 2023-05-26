@@ -1,0 +1,27 @@
+﻿body{background: url(../images/board.png) no-repeat center top;}
+	
+#section{
+	background: #4cff4c;
+	opacity: .3;
+	height: 1536px;
+	width: 100%;
+}
+
+
+#sec_top_membership{
+	background: red;
+	height: 430px;
+}
+
+/* 테마 */
+#qna_theme{
+	height: 50px;
+	margin-bottom: 29px;
+}
+
+#qna_content{
+	height: 627px;
+}
+
+
+.theme_Btn{display:none;}

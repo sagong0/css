@@ -1,0 +1,88 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    z-index: 9999;
+    line-height: 80px;
+}
+.h_wrapper {
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+    border-bottom: solid 1px #d9d9d9;
+    background: #fff;
+    transition: 0.3s;
+}
+.h_wrapper:hover {
+    height: 320px;
+}
+#h_wrap {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    top: 0;
+}
+#h_wrap h1 {
+    width: 170px;
+    transform: translateY(10px);
+}
+#h_wrap h1 img {
+    width: 100%;
+}
+
+#h_wrap > .h_right > nav > .gnb {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 720px;
+    font-weight: 500;
+}
+#h_wrap > .h_right > nav > .gnb li {
+    text-align: center;
+    width: 120px;
+}
+.gnb,
+.lnb {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 14px;
+}
+.lnb li{
+    display: inline-block;
+    width: 50px;
+}
+.lnb li:last-of-type {
+    margin-left: 10px;
+}
+.h-top-bg {
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    border-bottom: solid 1px #d9d9d9;
+}
+
+/* 서브 서식 */
+#h_wrap > .h_right > nav .gnb li > .sub {
+    height: 1px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 50px;
+    transition: 0.3s;
+}
+
+.sub a{
+    display: block;
+    width: 100%; height: 100%;
+    font-family: var(--f-style);
+}
